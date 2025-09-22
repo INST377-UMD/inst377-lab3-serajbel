@@ -1,0 +1,61 @@
+.header-footer {
+    text-align: center;
+    background-color: rgb(122, 187, 207);
+    color: rgb(71, 32, 25);
+    margin: 2px;
+    padding: 4px;
+    clear: both;
+}
+
+body {
+    background-color: rgb(216, 237, 240);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content-area {
+    margin: 4px 1px;
+    padding: 1px;
+    width: 66%;
+    float: left;
+}
+
+.content-box {
+    background-color: rgb(216, 237, 240);
+    border: 1px solid rgb(122, 177, 207);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#rules {
+    margin: 2px 1px;
+    padding: 15px;
+    background-color: lightseagreen;
+    width: 30%;
+    float: right;
+    border-radius: 10px;
+}
+
+#rules:hover {
+    background-color: rgb(54, 173, 167);
+}
+
+#main-nav {
+    background-color: rgb(122, 177, 207);
+    color: rgb(71, 32, 25);
+    text-align: center;
+    padding: 1px;
+    margin: 2px;
+}
+
+#main-nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#main-nav li:hover {
+    color:aliceblue;
+}
+
+#Name:focus {
+    width: 160px;
+}
